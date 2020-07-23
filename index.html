@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="https://use.fontawesome.com/08968d63bb.js"></script>
+  </head>
+  <body>
+    <header>
+        <nav class="nav">
+            <ul class="menu">
+                <li class="logo"><img src="images/logo.png" alt="logo"></li>
+                <li class="link" id="first-item"><a href="index.html">O mnie</a></li>
+                <li class="link"><a href="#">Współpraca</a></li>
+                <li class="link"><a href="#">Portfolio</a></li>
+                <li class="link"><a href="#">Opinie</a></li>
+                <li class="link"><a href="#">Kontakt</a></li>
+                <li class="lang">
+                    <div class="select">
+                        <select id="countries">
+                            <option>PL</option>
+                            <option>EN</option>
+                        </select>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="images">
+            <div class="image image-1"></div>
+            <div class="image image-2"></div>
+            <div class="image image-3"></div>
+            <div class="image image-4"></div>
+            <div class="image image-5"></div>
+            <div class="image image-6"></div>
+            <div class="image image-7"></div>
+            <div class="image image-8"></div>
+            <div class="image image-9"></div>
+            <div class="image image-10"></div>
+        </div>
+        <div class="icons">
+            <div class="icon dark-gray-icon">
+                <img src="images/first_icon.png" alt="first icon"> 
+            </div>
+            <div class="icon light-gray-icon">
+                <img src="images/second_icon.png" alt="second icon"> 
+            </div>
+            <div class="icon dark-gray-icon">
+                <img src="images/third_icon.png" alt="third icon"> 
+            </div>
+            <div class="icon light-gray-icon">
+                <img src="images/fourth_icon.png" alt="fourth icon"> 
+            </div>
+            <div class="icon dark-gray-icon">
+                <img src="images/fifth_icon.png" alt="fifth icon"> 
+            </div>
+            <div class="icon light-gray-icon">
+                <img src="images/sixth_icon.png" alt="sixth icon"> 
+            </div>
+            <div class="icon dark-gray-icon">
+                <img src="images/seventh_icon.png" alt="seventh icon"> 
+            </div>
+            <div class="icon light-gray-icon">
+                <img src="images/eighth_icon.png" alt="eighth icon"> 
+            </div>
+            <div class="icon dark-gray-icon">
+                <img src="images/ninth_icon.png" alt="ninth icon"> 
+            </div>
+            <div class="icon light-gray-icon">
+                <img src="images/tenth_icon.png" alt="tenth icon"> 
+            </div>
+        </div>
+        <div class="contact-form">
+            <form action="" method="POST" class="contact-form">
+                <div class="top"><h1>Kontakt</h1></div>
+                <div class="center">
+                    <div class="left">
+                        <!--<label for="name">Imię</label>-->
+                        <input type="text" id="name" name="name" placeholder="Imię" class="text-input">
+                        <!--<label for="mail">e-mail</label>-->
+                        <input type="email" id="mail" name="mail" placeholder="Adres e-mail" class="text-input">
+                        <p class="con-type">Jestem:</p>
+                        <div>
+                            <input type="radio" name="contact-type" id="contact-type" value="klient" checked>
+                            <label for="contact-type">Klientem</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="contact-type" id="contact-type" value="modelka">
+                            <label for="contact-type">Modelką</label>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <div class="select-topic">
+                            <select id="topic">
+                                <option value="" selected id="choose">Wybierz temat</option>
+                                <option value="blah">Blah</option>
+                                <option value="blah?">Blah?</option>
+                                <option value="blah!">Blah!</option>
+                            </select>
+                        </div>
+                        <!--<label for="msg">Wiadomość:</label>-->
+                        <textarea id="msg" name="user_message">Treść wiadomości</textarea>
+                    </div>
+                </div>
+                <div class="bottom">
+                    <div class="check">
+                        <input type="checkbox" name="personal-data" id="personal-data">
+                        <label for="personal-data">Wyrażam zgodę na przetwarzanie moich danych osobowych</label>
+                    </div>
+                    <button type="submit">Wyślij wiadomość</button>
+                </div>
+            </form>
+        </div>
+        <footer class="foot">
+            <div class="logo">
+                <img src="images/logo.png" alt="logo">
+            </div>
+            <div class="social-media-icons">
+                <a href="http://facebook.com"><i class="fa fa-facebook"></i></a>
+                <a href="http://twitter.com"><i class="fa fa-twitter"></i></a>
+                <a href="http://instagram.com"><i class="fa fa-instagram"></i></a>
+                <a href="http://behance.net"><i class="fa fa-behance"></i></a>
+            </div>
+            <div class="newsletter">
+                <p>Tipy, techniki i nowości na rynku fotograficznym</p>
+                <button type="submit">Newsletter</button>
+            </div>
+        </footer>
+    </main>
+    <script src="js/script.js"></script>
+  </body>
+</html>
